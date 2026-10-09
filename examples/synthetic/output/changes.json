@@ -1,0 +1,140 @@
+{
+  "summary": "1 object moved (box); 1 object appeared (ball); 1 object disappeared (bucket).",
+  "changes": [
+    {
+      "type": "moved",
+      "label": "box",
+      "description": "The box moved 1.40 m closer and to the right; it is now on the floor.",
+      "centroid": [
+        0.375,
+        -0.662,
+        0.283
+      ],
+      "size_m": [
+        0.49,
+        0.4,
+        0.23
+      ],
+      "confidence": 0.8,
+      "from": [
+        -0.559,
+        0.377,
+        0.332
+      ],
+      "to": [
+        0.375,
+        -0.662,
+        0.283
+      ],
+      "displacement": [
+        0.934,
+        -1.039,
+        -0.049
+      ],
+      "distance_m": 1.3983060872858075,
+      "rotation_deg": 0.0,
+      "icp_fitness": 0.64,
+      "clip_top": [
+        [
+          [
+            "cardboard box",
+            0.17172589898109436
+          ],
+          [
+            "box",
+            0.11925841867923737
+          ],
+          [
+            "toy",
+            0.10495211184024811
+          ]
+        ],
+        [
+          [
+            "box",
+            0.2202492356300354
+          ],
+          [
+            "ball",
+            0.11604084074497223
+          ],
+          [
+            "television",
+            0.09728807210922241
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "removed",
+      "label": "bucket",
+      "description": "The bucket (\u22480.30\u00d70.28\u00d70.31 m) that stood on the floor is gone.",
+      "centroid": [
+        1.318,
+        -0.302,
+        0.307
+      ],
+      "size_m": [
+        0.3,
+        0.28,
+        0.31
+      ],
+      "confidence": 1.0,
+      "clip_top": [
+        [
+          "bucket",
+          0.25429344177246094
+        ],
+        [
+          "stool",
+          0.1346999853849411
+        ],
+        [
+          "cup",
+          0.11941111087799072
+        ]
+      ],
+      "free_space_ratio": 1.0,
+      "colour_change": 0.41
+    },
+    {
+      "type": "added",
+      "label": "ball",
+      "description": "A ball (\u22480.49\u00d70.48\u00d70.30 m) appeared on the floor.",
+      "centroid": [
+        -0.349,
+        -0.15,
+        0.299
+      ],
+      "size_m": [
+        0.49,
+        0.48,
+        0.3
+      ],
+      "confidence": 0.99,
+      "clip_top": [
+        [
+          "ball",
+          0.7997349500656128
+        ],
+        [
+          "television",
+          0.06468015909194946
+        ],
+        [
+          "toy",
+          0.022250860929489136
+        ]
+      ],
+      "free_space_ratio": 0.98,
+      "colour_change": 0.3
+    }
+  ],
+  "stats": {
+    "keyframes registered": "40 before / 40 after",
+    "points": "206213 before / 191283 after",
+    "before-scan seen by after": "78%",
+    "after-scan seen by before": "55%",
+    "runtime": "84s"
+  }
+}

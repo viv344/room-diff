@@ -1,0 +1,15 @@
+# CPU is enough; no GPU needed. Install torch first from the CPU index to avoid a 2 GB CUDA download:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+torchvision
+pycolmap>=3.11
+open3d>=0.18
+opencv-python-headless>=4.9
+transformers>=4.45
+scipy
+scikit-learn
+plotly>=5
+pillow
+tqdm
+# optional: richer labels/descriptions from Claude when ANTHROPIC_API_KEY is set
+anthropic>=1.0
